@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea_del_tiempo h1 {
+    font-size: 68px;
+    letter-spacing: 5px;
+}
+
+.linea_del_tiempo h2 {
+    font-size: 40px;
+}
+
+section h2 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+section img {
+    margin-top: 30px;
+    max-width: 300px    ;
+}
+
+.contenedor_tiempo {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_tiempo .linea {
+    width: 900px;
+    position: absolute;
+    top: 30px;
+    height: 2px;
+    background-color: black;
+    z-index: -2;
+}
+
+.fecha {
+    display: inline-block;
+    font-size: 20px;
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #2d4059;
+    color: white;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: background-color, transform .5s linear;
+}
+
+.seleccionado {
+    transform: scale(1.2);
+    background-color: #ea5455;
+    color: #000;
+    font-weight: bold;
+}
+
+body {
+    background: orange;
+}
+
+.capa{
+    display: none;
+}

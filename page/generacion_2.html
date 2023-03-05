@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTRUCTURA DE COMPUTADORES</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles/estilos_linea_del_tiempoV2.css">
+</head>
+<body>
+    <div class="fondo"></div>
+    <div class="capa"></div>
+    <span class="btn_menu"><img src="/assets/menu.svg" alt=""></span>
+    <div class="container_menu">
+        <nav class="nav">
+        <span class="close_menu"><img src="/assets/close.svg" alt=""></span>
+        <ul class="list">
+            <li class="list_item">
+                <div class="list_button">
+                    <img src="/assets/home.svg" alt="" class="list_img">
+                    <a href="/index.html" class="nav_link">Inicio</a>
+                </div>
+            </li>
+            <li class="list_item">
+                <div class="list_button list_item--click">
+                    <img src="/assets/time.svg" alt="" class="list_img">
+                    <a href="#" class="nav_link">Linea del Tiempo</a>
+                    <img src="/assets/arrow.svg" alt="" class="list_arrow">
+                </div>
+                <ul class="list_show">
+                    <li class="list_inside">
+                        <a href="/page/generacion_0.html" class="nav_link nav_link--inside">Generacion 0</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="/page/generacion_1.html" class="nav_link nav_link--inside">Generacion 1</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="/page/generacion_2.html" class="nav_link nav_link--inside">Generacion 2</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="/page/generacion_3.html" class="nav_link nav_link--inside">Generacion 3</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="/page/generacion_4.html" class="nav_link nav_link--inside">Generacion 4</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="/page/generacion_5.html" class="nav_link nav_link--inside">Generacion 5</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list_item">
+                <div class="list_button">
+                    <img src="/assets/compare.svg" alt="" class="list_img">
+                    <a href="/page/items.html" class="nav_link">Cuadro Comparativo</a>
+                </div>
+            </li>
+
+            <li class="list_item">
+                <div class="list_button">
+                    <img src="/assets/clocking.svg" alt="" class="list_img">
+                    <a href="/page/Articulo_overClocking.html" class="nav_link">OverClocking</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    </div>
+
+    <section class="linea_del_tiempo">
+        <div class="contenedor_tiempo">
+            <div class="linea"></div>
+            <a href="#a1957" id="m1957" class="fecha">1957</a>
+            <a href="#a1958" id="m1958" class="fecha">1958</a>
+            <a href="#a1959" id="m1959" class="fecha">1959</a>
+            <a href="#a1960" id="m1960" class="fecha">1960</a>
+            <a href="#a1961" id="m1961" class="fecha">1961</a>
+            <a href="#a1962" id="m1962" class="fecha">1962</a>
+            <a href="#a1963" id="m1963" class="fecha">1963</a>
+        </div>
+        <h1>Historia de la Tecnologia</h1>
+        <h2>Linea del Tiempo: Generacion 2</h2>
+    </section>
+
+    <section id="a1957">
+        <h2>1957 <br> La Unión Soviética lanzó el primer satélite artificial, Sputnik 1, lo que desencadenó
+            la carrera espacial y el desarrollo de tecnologías satelitales y de cohetes.</h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1958">
+        <h2>1958 <br> Se creó la Agencia de Proyectos de Investigación Avanzados de Defensa (ARPA,
+            por sus siglas en inglés) en los Estados Unidos, lo que llevó al desarrollo de tecnologías de
+            redes de computadoras y la creación de ARPANET, precursora de la Internet moderna.</h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1959">
+        <h2>1959 <br> Texas Instruments desarrolló el primer circuito integrado, que permitió la
+            miniaturización de los componentes electrónicos y el aumento de la potencia de
+            procesamiento en dispositivos electrónicos.
+            </h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1960">
+        <h2>1960 <br> Se lanzó el primer láser (Light Amplification by Stimulated Emission of Radiation)
+            por parte de Theodore Maiman en Hughes Research Laboratories, lo que permitió la
+            creación de tecnologías de comunicación, médicas y de fabricación avanzadas.</h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1961">
+        <h2>1961 <br> Yuri Gagarin se convirtió en el primer humano en viajar al espacio, a bordo de la
+            nave espacial soviética Vostok 1.</h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1962">
+        <h2>1962 <br> Se desarrolló el primer videojuego, "Spacewar!", en el Instituto de Tecnología de
+            Massachusetts (MIT), lo que llevó a la creación de la industria de los videojuegos.</h2>
+        <img src="#" alt="">
+    </section>
+
+    <section id="a1963">
+        <h2>1963 <br> se lanzó el primer teléfono de teclado táctil por parte de Bell System, que
+            reemplazó los botones rotativos utilizados anteriormente en los teléfonos.
+            </h2>
+        <img src="#" alt="">
+    </section>
+
+<script src="/menu.js"></script>
+<script src="/mostrar_menu.js"></script>
+<script src="/js/linea_tiempo.js"></script>
+</body>
+</html>
